@@ -1,0 +1,46 @@
+body {
+    background-image: radial-gradient( circle farthest-corner at 50%,  rgba(255,236,231,1) 25%, rgba(255,143,108,1) 90.1% );
+}
+
+.fundo {
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.274);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: Arial;
+    
+
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(12, 5, 5, 0);
+    color: white;
+    margin: 4.5px;
+    
+}
+
+.botao:hover {
+    background-color: rgb(255, 143, 108);
+}
+
+#resultado {
+    background-color: white;
+    width: 210px;
+    height: 30px;
+    margin: 5px;
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    padding: 15px;
+}
